@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
-import MovieList from './components/MovieList';
 import MovieDetail from './components/MovieDetail';
+import './components/Home.css';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
@@ -15,10 +15,10 @@ const App = () => {
 
   return (
     <div>
+      <h1 className="film-score-title">FilmScore</h1>
       <NavBar onNavigate={handleNavigation} />
       {currentPage === 'home' && <Home />}
       {currentPage === 'about' && <AboutUs />}
-      {currentPage === 'categories' && <MovieList />}
       {currentPage === 'movieDetail' && <MovieDetail />}
     </div>
   );

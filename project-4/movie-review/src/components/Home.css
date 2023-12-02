@@ -1,0 +1,54 @@
+/* Home.css */
+.movie-list {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    gap: 20px; /* Add some spacing between movie items */
+  }
+  
+  .movie-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 0 0 calc(33.33% - 20px); /* Set the width of each movie item */
+    margin-bottom: 20px; /* Add some spacing below each row */
+  }
+  
+  .movie-item:hover {
+    background-color: #f0f0f0; /* Change the color as desired */
+  }
+  
+  .movie-item img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+nav {
+    background: #333;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li {
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .film-score-title {
+    background: #333;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  

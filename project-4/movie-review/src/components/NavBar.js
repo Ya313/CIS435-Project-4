@@ -1,4 +1,6 @@
-import React from 'react';
+// NavBar.js
+import React, { } from 'react';
+import './Home.css';
 
 const NavBar = ({ onNavigate }) => {
   return (
@@ -6,7 +8,6 @@ const NavBar = ({ onNavigate }) => {
       <ul>
         <li onClick={() => onNavigate('home')}>Home</li>
         <li onClick={() => onNavigate('about')}>About Us</li>
-        <li onClick={() => onNavigate('categories')}>Categories</li>
       </ul>
     </nav>
   );
