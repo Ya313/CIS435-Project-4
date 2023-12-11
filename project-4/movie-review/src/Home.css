@@ -1,0 +1,117 @@
+/* Home.css */
+
+.movie-list {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .movie-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .movie-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .search-for-movie {
+    appearance: none;
+    margin: 10px;
+    border-radius: 5%;
+    border-width: 0;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  .search-for-movie:hover {
+    background-color: #aaaaaa;
+  }
+
+  .search-for-movie-input {
+    appearance: none;
+    margin-left: 10px;
+    border-radius: 5%;
+    height: 12px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+nav {
+    background: #333;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .film-score-title {
+    background: #333333;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+/* Styles for the movie details page */
+.movie-details-container {
+  margin: 10px;
+  }
+
+  .back-to-home-button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    appearance: none;
+    border-radius: 5%;
+    border-width: 0;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .back-to-home-button:hover {
+    background-color: #aaaaaa;
+  }
+
+  .movie-details-content {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .movie-details-image {
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .movie-details-info {
+    flex-grow: 1;
+  }
+
+  .movie-summary {
+    margin-top: 10px;
+    text-align: justify;
+  }
